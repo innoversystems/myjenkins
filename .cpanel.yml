@@ -1,0 +1,9 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/wecastweb/public_html/
+ - /bin/cp index.html $DEPLOYPATH
+ - /bin/cp style.css $DEPLOYPATH
+ - /bin/cp index.php $DEPLOYPATH
+ - /bin/cp hello1.css $DEPLOYPATH
+ - /bin/cp index.php $DEPLOYPATH
